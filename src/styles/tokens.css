@@ -1,0 +1,32 @@
+/* Palette taken from the Localis app itself: indigo on near-black. Dark is the default theme. */
+:root,
+:root[data-theme='dark'] {
+  --bg: #0b0d12;
+  --card: #141821;
+  --card2: #1c2130;
+  --line: #2a3142;
+  --ink: #f2f4f8;
+  --ink-2: #c3c9d4;
+  --muted: #8f98a8;
+  --cobalt: #8e96ff;
+  --on-accent: #0b0d12;
+  --ok: #5fd7a1;
+  --warn: #f2b55a;
+  --neg: #ff7a70;
+}
+:root[data-theme='light'] {
+  --bg: #e9ebf0;
+  --card: #ffffff;
+  --card2: #f2f3f7;
+  --line: #d3d7e0;
+  --ink: #12141a;
+  --ink-2: #394150;
+  --muted: #566070;
+  --cobalt: #4650e0;
+  --on-accent: #ffffff;
+  --ok: #0b7248;
+  --warn: #94590a;
+  --neg: #b42318;
+}
+
+:root { --hair: var(--line); }

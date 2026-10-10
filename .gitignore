@@ -1,0 +1,12 @@
+node_modules
+.venv
+dist
+test-results
+exports
+review/*.png
+review/*.jpg
+.DS_Store
+*.log
+.env*
+playwright-report
+.vite
